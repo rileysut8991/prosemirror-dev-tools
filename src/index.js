@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 import { Provider } from "unstated";
 import DevTools from "./dev-tools";
 import EditorStateContainer from "./state/editor";
+import DevToolsExpanded from "./dev-tools-expanded";
 
 const DEVTOOLS_CLASS_NAME = "__prosemirror-dev-tools__";
 
@@ -39,3 +40,4 @@ function applyDevTools(editorView, props) {
 
 export default applyDevTools;
 export { applyDevTools };
+export { DevToolsExpanded };
